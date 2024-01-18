@@ -1,0 +1,21 @@
+.content-container {
+  margin-left: 24.0rem;
+  padding-left: 4.4rem;
+  padding-top: 1.74rem; 
+}
+
+.search-suggestions {
+  /* width: 100%; */
+  /* padding: 1.2rem 0; */
+}
+
+.search-suggestions button {
+  padding: 0.6rem 1.2rem;
+  margin: 1.2rem 0;
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 1rem;
+}
