@@ -1,0 +1,81 @@
+/* HEADER STARTS */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1300px;
+  padding: 0 1.0rem 0 2.4rem;
+  position: fixed;
+  background-color: white;
+  /* margin-top: 2em; */
+  /* align-self: center; */
+  z-index: 999;
+  /* padding: 1em 2em; */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  padding: 1.6rem 2.3rem 1.6rem 0;
+  max-width: 16.9rem;
+}
+
+.header-left .menu-icon {
+  margin-right: 2.4rem;
+}
+
+.header-middle {
+  display: flex;
+  flex: 1;
+  height: 4.0rem;
+  margin-left: 21.9rem;
+}
+
+.header-middle input {
+  width: 54rem;
+  padding-left: 1.7rem;
+  border-radius: 10rem 0rem 0rem 10rem;
+  color: #8888;
+  border-style: solid;
+  border-color: #cccc;
+  border-width: 0.1rem;
+}
+
+.header-middle input::placeholder {
+  font-size: 1.6rem;
+}
+
+.header-middle .search-btn {
+  width: 6.4rem;
+  color: #F8F8F8;
+  border-radius: 0rem 10rem 10rem 0rem;
+  border: 0.1rem solid #D3D3D3
+}
+
+.header-middle .voice-btn {
+  border: none;
+  border-radius: 2rem;
+  width: 4rem;
+  margin-left: 1rem;
+}
+
+.header-right {
+  display: flex;
+}
+.header-right button {
+  margin-left: 1.05rem;
+  color: #065FD4;
+  background-color: #ffffff;
+  display: flex;
+  height: 3.6rem;
+  align-items: center;
+  padding: 0rem 1.6rem 0rem 1.2rem;
+  border-radius: 10rem;
+  border: 0.1rem solid #D3D3D3;
+}
+
+.header-right button p {
+  margin-left: 0.8rem;
+}
+
+/* HEADER ENDS */
